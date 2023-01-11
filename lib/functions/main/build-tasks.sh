@@ -228,6 +228,7 @@ build_main() {
 
 	start=$(date +%s)
 
+	# install build env on your local building machine
 	# Check and install dependencies, directory structure and settings
 	# The OFFLINE_WORK variable inside the function
 	prepare_host

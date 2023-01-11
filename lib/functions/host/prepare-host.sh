@@ -4,7 +4,7 @@
 # * checks and installs necessary packages
 # * creates directory structure
 # * changes system settings
-#
+# grep " install " /var/log/dpkg.log    to view rently installed packages
 prepare_host() {
 	display_alert "Preparing" "host" "info"
 
